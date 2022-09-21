@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teste.js",
+  "scripts": {
+    "test": "node index.test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvictorf/QA01.git"
+  },
+  "author": "João Victor Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvictorf/QA01/issues"
+  },
+  "homepage": "https://github.com/jvictorf/QA01#readme",
+
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tap": "^5.5.3"
+  }
+}
